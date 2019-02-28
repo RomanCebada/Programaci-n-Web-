@@ -1,0 +1,124 @@
+html{
+    background: rgba(189, 57, 57, 0.699);
+    font-size: 1rem;
+    color: white;
+}
+/* MEDIDAS RELATIVAS*/
+#px{
+    background: rgba(22, 22, 22, 0.685);
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+#em{
+    background: rgba(22, 22, 22, 0.685);
+    border-radius: 5px;
+    font-size:1.5em;
+    margin-left: 1em;
+}
+
+#ex{
+    background: rgba(22, 22, 22, 0.685);
+    border-radius: 5px;
+    font-size:2ex;
+    margin-left: 1ex;
+}
+
+#rem{
+    background: rgba(22, 22, 22, 0.685);
+    border-radius: 5px;
+    font-size:2ex;
+    margin-left: 3rem;
+}
+/*MEDIDAS ABSOLUTAS*/
+#in{
+    background: rgba(22, 22, 22, 0.685);
+    border-radius: 5px;
+    margin-left: 1in;
+}
+#cm{
+    background: rgba(22, 22, 22, 0.685);
+    border-radius: 5px;
+    margin-left: 3cm;
+}
+
+#mm{
+    background: rgba(22, 22, 22, 0.685);
+    border-radius: 5px;
+    margin-left: 15mm;
+}
+
+#pt{
+    background: rgba(22, 22, 22, 0.685);
+    border-radius: 5px;
+    margin-left: 80pt;
+}
+
+#pc{
+    background: rgba(22, 22, 22, 0.685);
+    border-radius: 5px;
+    margin-left: 4pc;
+}
+/*PORCENTUALES*/
+#por{
+    background: rgba(22, 22, 22, 0.685);
+    border-radius: 5px;
+    padding: 3% 3% 3% 3%;
+    width: 30%;
+    height: 30%;
+    margin-left:32%;
+}
+
+#por2{
+    background: rgba(204, 102, 102, 0.685);
+    border-radius: 5px;
+    margin-left:10%;
+    margin-top: 2%;
+}
+/*COLORES*/
+#rgb-d{
+    background:rgb(0, 0, 0);
+    margin-left:2%;
+    border-radius:5px;
+}
+#hexa{
+    background:#000000;
+    margin-left:2%;
+    border-radius:5px;
+}
+#rgb-p{
+    background:rgb(0%, 0%, 0%);
+    margin-left:2%;
+    border-radius:5px;
+}
+#hsl{
+    background:hsl(37, 100%, 0%);
+    margin-left:2%;
+    border-radius:5px;
+}
+/*transparencia*/
+#rgba{
+    background:rgba(15, 71, 22, 0.712);
+    margin-left:2%;
+    border-radius:5px;
+}
+#hsla{
+    background: hsla(128, 65%, 17%, 0.712);
+    margin-left:2%;
+    border-radius:5px;
+}
+/*padding y margin - diferencias*/
+
+#pad{
+    background: hsla(128, 65%, 17%, 0.712);
+    display:inline-block;
+    margin-left:2%;
+    border-radius:5px;
+    padding: 3% 3% 3% 3%;
+}
+#marg{
+    background: hsla(128, 65%, 17%, 0.712);
+    margin-left:3%;
+    display: inline-block;
+    border-radius:5px;
+}
